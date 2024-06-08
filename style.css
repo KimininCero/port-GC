@@ -1,0 +1,120 @@
+@charset "uftf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(40deg, #311e10 0%, #dd3d31 51%, #eabe7c 100%);
+    color: #f6f6f6;
+    margin: 12% auto;
+    overflow: hidden;
+}
+
+main {
+    margin: 0 20% 0 15%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: Krona One;
+    font-size: 36;
+    margin: 0 40% 0 0;
+}
+
+p {
+    margin: 5% 50% 3% 0;
+    font-family: Montserrat;
+}
+
+strong {
+    color: #eabe7c;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+b {
+    text-align: center;
+}
+
+.fundo {
+    margin: 0 0 5% 0;
+    background-color: #DD3D31;
+    padding: 20px 2.7em;
+    border-radius: 15px;
+    box-shadow: 4px 5px #311e10;
+}
+
+.fundo2 {
+    margin: 0 0 5% 0;
+    background-color: #DD3D31;
+    padding: 20px 3em;
+    border-radius: 15px;
+    box-shadow: 4px 5px #311e10;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.foto img {
+    position: absolute;
+    right: 15%;
+    top: 35%;
+    border-radius: 20px;
+    width: 400px;
+    box-shadow: 8px 10px #eabe7c;
+}
+
+.fundo:hover {
+    cursor: pointer;
+}
+
+.fundo:active {
+    transform: scale(0.9);
+    background-color: #ad453e;
+    box-shadow: none;
+}
+
+.fundo2:hover {
+    cursor: pointer;
+}
+
+.fundo2:active {
+    transform: scale(0.9);
+    background-color: #ad453e;
+    box-shadow: none;
+}
+
+.estrelas img {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 60%;
+}
+
+.krona-one-regular {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
